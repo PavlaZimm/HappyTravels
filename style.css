@@ -1,0 +1,149 @@
+*, :after, :before { box-sizing: border-box; }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    font-size: 16px;
+    color: #8B8B8B;
+    weight: 500px;
+    text-align: center;
+
+}
+
+hr {
+    width: 65px;
+    text-align: center;
+    height: 2px;
+    color: #407BFF;
+    background-color: #407BFF;
+}
+
+.travelerfoto{
+    weight: 350px;
+    height: auto;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.tlacitka{
+text-align: center;
+}
+
+.tlacitko1{
+    background-color: #407BFF;
+    text-decoration: none;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    display: block;
+    width: 195px;
+}
+
+.tlacitko2{
+
+    background-color:  #8B8B8B;
+    text-decoration: none;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    display: block;
+    width: 230px;
+
+}
+
+.mapa,
+.cactus,
+.plane,
+.palm,
+.rv,
+.umbrella
+{
+background-color: white;
+position: relative;
+width: 460px;
+height: 80px;
+border-radius: 10px;
+box-shadow: 0px 4px 6px #407BFF1F;
+font-size: 13px;
+color: #8B8B8B;
+margin-top: 28px;
+margin-bottom: 15px;
+ }
+
+.map,
+.cac,
+.pla,
+.pal,
+.umbr,
+.rvi
+{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    left: -32px;  
+}
+
+@media screen and (min-width: 640px)
+{
+ .box1,
+ .box2
+ {
+    display: flex;
+    flex: 1 1 calc(100% / 3);
+}
+
+    .tlacitko1{
+        background-color: #407BFF;
+        text-decoration: none;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        padding: 10px 30px 10px 30px;
+        width: 195px;
+        display: inline-block;
+    }
+    
+    .tlacitko2{    
+        background-color:  #8B8B8B;
+        text-decoration: none;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        padding: 10px 30px 10px 30px;
+        width: 230px;
+        display: inline-block;
+
+ }
+
+}
+
+
+@media screen and (min-width: 1100px){
+
+}

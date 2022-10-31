@@ -1,16 +1,36 @@
 *, :after, :before { box-sizing: border-box; }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+    height: 1657px;
     background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color: #8B8B8B;
-    weight: 500px;
-    text-align: center;
+}
+
+.travelerfoto{
+    width: 350px;
+    height: 291px;
+    padding-top: 60px;
+    padding-left: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
-hr {
+h1{
+    font-size: 28px;
+    text-align: center;
+}
+
+h2{
+    font-size: 16px;
+    text-align:center;
+    margin-top: 60px;
+}
+
+
+hr{
     width: 65px;
     text-align: center;
     height: 2px;
@@ -18,27 +38,26 @@ hr {
     background-color: #407BFF;
 }
 
-.travelerfoto{
-    weight: 350px;
-    height: auto;
-}
-
-h1{
-    margin-bottom: 30px;
-    font-size: 28px;
-    color: black;
-}
-
-h2{
+.text1{
     text-align: center;
     font-size: 16px;
-    color: black;
-    margin-top: 60px;
-    margin-bottom: 15px;
+    color: #8B8B8B ;
+    padding: 0 20px 0 20px;
+}
+
+.text2,
+.text3{
+    text-align: center;
+    font-size: 16px;
+    color: #8B8B8B ;
 }
 
 .tlacitka{
-text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
 }
 
 .tlacitko1{
@@ -49,6 +68,7 @@ text-align: center;
     color: white;
     margin-top: 30px;
     margin-bottom: 10px;
+    margin-right: 15px;
     font-size: 14px;
     padding: 10px 30px 10px 30px;
     display: block;
@@ -68,7 +88,6 @@ text-align: center;
     padding: 10px 30px 10px 30px;
     display: block;
     width: 230px;
-
 }
 
 .mapa,
@@ -76,74 +95,196 @@ text-align: center;
 .plane,
 .palm,
 .rv,
-.umbrella
+.umbrella{
+
+    width: 460px;
+    height: 80px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    font-size: 13px;
+    color: #8B8B8B;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px 20px 15px 20px ;
+    margin-top: 28px;
+    margin-bottom: 15px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+@media screen and (min-width: 640px){
+
+body{ width: 768px;
+      height: 1461px;
+}
+
+hr{
+    width: 65px;
+    text-align: center;
+    height: 2px;
+    color: #407BFF;
+    background-color: #407BFF;
+}
+
+
+.travelerfoto{
+    width: 400px;
+    height: 330px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tlacitka
 {
-background-color: white;
-position: relative;
-width: 460px;
-height: 80px;
-border-radius: 10px;
-box-shadow: 0px 4px 6px #407BFF1F;
-font-size: 13px;
-color: #8B8B8B;
-margin-top: 28px;
-margin-bottom: 15px;
- }
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row ;
+    align-items: baseline;
+}
+
+.tlacitko1,
+{
+    margin-right: 15px;
+}
+
+.mapa,
+.cactus,
+.plane,
+.palm,
+.rv,
+.umbrella{
+
+    width: 230px;
+    height: 170px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    font-size: 13px;
+    color: #8B8B8B;
+    background-color: white;
+    border-radius: 10px;
+   
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.box3,
+.box4 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row ;
+    align-items: baseline;
+}
+
 
 .map,
 .cac,
 .pla,
 .pal,
 .umbr,
-.rvi
-{
-    position: relative;
-    top: 20px;
-    bottom: 20px;
-    left: -32px;  
+.rvi{
+    margin-top: 40px;
 }
 
-@media screen and (min-width: 640px)
-{
- .box1,
- .box2
- {
-    display: flex;
-    flex: 1 1 calc(100% / 3);
 }
 
-    .tlacitko1{
-        background-color: #407BFF;
-        text-decoration: none;
-        border-radius: 20px 20px 20px 20px;
-        text-align: center;
-        color: white;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        font-size: 14px;
-        padding: 10px 30px 10px 30px;
-        width: 195px;
-        display: inline-block;
+@media screen and (min-width: 1100px) {
+
+body{ width: 1200px;
+      height: 1051px;
     }
-    
-    .tlacitko2{    
-        background-color:  #8B8B8B;
-        text-decoration: none;
-        border-radius: 20px 20px 20px 20px;
-        text-align: center;
-        color: white;
-        margin-top: 0px;
-        margin-bottom: 10px;
-        font-size: 14px;
-        padding: 10px 30px 10px 30px;
-        width: 230px;
-        display: inline-block;
 
- }
+.travelerfoto{
+    margin: 0;
+    padding: 0;
+}
+
+.kontejner2,{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.kontejner1{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: space-evenly;
+}
+
+.box1{
+    display: flex;
+    flex-flow: space-evenly;
+    flex-direction: row-reverse;
+
+}
+
+.box2{
+    display: flex;
+    flex-flow: space-evenly;
 
 }
 
 
-@media screen and (min-width: 1100px){
+
+.kontejner3{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kontejner4{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mapa,
+.cactus,
+.plane,
+.palm,
+.rv,
+.umbrella{
+
+    width: 168px;
+    height: 190px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    font-size: 13px;
+    color: #8B8B8B;
+    background-color: white;
+    border-radius: 10px;
+   
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.fotoo,
+.kontejner2,
+.kontejner3,
+.box3,
+.kontejner4,
+.box4
+{
+	flex: 1 1 490px;
+}
 
 }

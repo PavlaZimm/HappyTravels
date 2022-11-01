@@ -210,19 +210,23 @@ body{ width: 1200px;
     padding: 0;
     width: 425px;
     padding-left: 60px;
+    margin: 10px auto;
 }
 
-.kontejner2,{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-flow: space-evenly;
-}
 
 .kontejner1{
     display: flex;
     flex-direction: row-reverse;
     flex-flow: space-evenly;
     padding-top: 80px;
+}
+
+.kontejner2{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-start;
+
 }
 
 .box1{

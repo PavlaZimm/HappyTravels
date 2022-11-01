@@ -202,24 +202,27 @@ hr{
 
 body{ width: 1200px;
       height: 1051px;
+      margin: 50addpx auto;
     }
 
 .travelerfoto{
     margin: 0;
     padding: 0;
+    width: 425px;
+    padding-left: 60px;
 }
 
 .kontejner2,{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+    flex-direction: row-reverse;
+    flex-flow: space-evenly;
 }
 
 .kontejner1{
     display: flex;
     flex-direction: row-reverse;
     flex-flow: space-evenly;
+    padding-top: 80px;
 }
 
 .box1{
@@ -286,5 +289,14 @@ body{ width: 1200px;
 {
 	flex: 1 1 490px;
 }
+
+.kontejner1,
+.box1,
+.box2{
+    margin-bottom: 80px;
+
+}
+
+
 
 }

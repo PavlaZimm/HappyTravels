@@ -23,19 +23,25 @@ h1{
     text-align: center;
 }
 
+h1::after{
+
+    background-color: #407BFF;
+	content: "";
+	display: block;
+	width: 80px;
+	height: 5px;
+	margin: 10px;
+	margin-left: 200px;
+
+}
+
+
+
+
 h2{
     font-size: 16px;
     text-align:center;
     margin-top: 60px;
-}
-
-
-hr{
-    width: 65px;
-    text-align: center;
-    height: 2px;
-    color: #407BFF;
-    background-color: #407BFF;
 }
 
 .text1{
@@ -120,14 +126,17 @@ body{ width: 768px;
       height: 1461px;
 }
 
-hr{
-    width: 65px;
-    text-align: center;
-    height: 2px;
-    color: #407BFF;
-    background-color: #407BFF;
-}
+h1::after{
 
+    background-color: #407BFF;
+	content: "";
+	display: block;
+	width: 80px;
+	height: 5px;
+	margin: 10px;
+	margin-left: 350px;
+
+}
 
 .travelerfoto{
     width: 400px;
@@ -237,15 +246,17 @@ align-items: flex-start;
     }
 
 
-hr {
-    background-color:neco;
-    color:neco;
-    width:nekolik;
-    height:nekolik;
-    margin:nejaky;
-    border: 0px solid neco;
-    }
+    h1::after{
 
+        background-color: #407BFF;
+        content: "";
+        display: block;
+        width: 80px;
+        height: 5px;
+        margin: 10px;
+        margin-left: 5px;
+    
+    }
 
 
 
